@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1568438350390-886953faad1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+}
+
+.wrapper {
+    text-align: center;
+}
+
+#button {
+    position: absolute;
+    top: 50%;
+
+    margin:auto;
+    display:block;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Caveat', cursive;
+    color: bisque;
+}
