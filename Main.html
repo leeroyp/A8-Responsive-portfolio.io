@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-<script src="https://code.jquery.com/jquery-3.4.1.js"
-integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
+<body  class="d-flex flex-column">
+
+    
     <header>
         <!-- Wrap in container to center content. headerMobile removes margin and padding formatting-->
         <div class="container" id="headerMobile">
@@ -45,59 +48,56 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
         </div>
     </header>
 
-    <h1>About Me</h1>
-    <div class="container">
-        <div class="container">
+    
+        <div class="container" id="about">
+            <h1>About Me</h1>
+
             <div class="row">
-              <div class="col-sm-4">
-                <main class="wrapper">
-                    <hr />
+                <div class="col-sm-4">
+                    <main class="wrapper">
+                        <img class="justify-content-left align-items-center img-fluid float-left" id="profileImg"
+                            src="images/Leecopy.png" alt="A photo of me" width="300px" />
+                    </main>
+                </div>
+                <div class="col-sm-8">
+                    <p>
+                        Full Stack Web Developer experienced in 3d design, with a background in Mechanical at
+                        George Brown College and Cape Breton University and a Full Stack Development certificate at the University of Toronto.
+                        Passionate about tackling programming challenges with skills in front-end development languages
+                        such as HTML and Javascript and responsive app design. Known for writing clean solutions to
+                        coding problems and good collaboration with team members.
+                    </p>
 
-                    <img class="justify-content-left align-items-center img-fluid float-left" id="profileImg"
-                        src="images/Leecopy.png" alt="A photo of me" width="300px" /> 
-                </main>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm">
+                                <h3>Interest</h3>
+                                <p>soccer</p>
+                                <p>soccer</p>
+                                <p>soccer</p>
+                            </div>
+                            <div class="col-sm">
+                                <h3>favourites</h3>
+                                <p>Team:soccer</p>
+                                <p>Sport:soccer</p>
+                                <p>Food:soccer</p>
 
-              </div>
-              <div class="col-sm-8">
-                <p>
-                    Full Stack Web Developer experienced in graphic design, with a background in Life Sciences at
-                    McMaster University and a Full Stack Development certificate at the University of Toronto.
-                    Passionate about tackling programming challenges with skills in front-end development languages
-                    such as HTML and Javascript and responsive app design. Known for writing clean solutions to
-                    coding problems and good collaboration with team members. 
-                </p>
-               
-                <div class="container">
-                    <div class="row">
-                      <div class="col-sm">
-                        <h3>Interest</h3>
-                        <p>soccer</p>
-                        <p>soccer</p>
-                        <p>soccer</p>
-                      </div>
-                      <div class="col-sm">
-                        <h3>favourites</h3>
-                       <p>Team:soccer</p>
-                       <p>Sport:soccer</p>
-                       <p>Food:soccer</p>
-            
-                      </div>
-                      <div class="col-sm">
-                       <h3>hobbies</h3>
-                       <p>soccer</p>  
-                       <p>soccer</p>
-                       <p>soccer</p>
-                      </div>
+                            </div>
+                            <div class="col-sm">
+                                <h3>hobbies</h3>
+                                <p>soccer</p>
+                                <p>soccer</p>
+                                <p>soccer</p>
+                            </div>
+                        </div>
                     </div>
-                  </div>
-              </div>
+                </div>
             </div>
-          </div>
+        </div>
 
-          <div class="container">
-
-            <div class="container main d-none" id="portfolioDiv">
-                <div class="row">
+        
+            <!-- <div class="container main d-none" id="portfolioDiv"> -->
+                <div class="row" id="port">
                     <div class="col-12">
                         <main class="wrapper">
                             <h2>Portfolio</h2>
@@ -106,58 +106,79 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 d-flex justify-content-center">
                                     <button class="btn port-btn" id="riceEaters">
-                                        <img src="./assets/images/imgRiceEaters.png" class="image" />
-                                        <div class="overlay">Rice Eaters</div>
+                                        <img src="images/code-quiz.png" class="image" />
+                                        <div class="overlay">Code Quiz</div>
                                     </button>
                                 </div>
-        
+
                                 <div class="col-lg-4 col-md-6 d-flex justify-content-center">
                                     <button class="btn port-btn" id="pwGen">
-                                        <img src="./assets/images/imgPWGen.png" class="image" />
+                                        <img src="images/PW-generato.png" class="image" />
                                         <div class="overlay">Password Generator</div>
                                     </button>
                                 </div>
-        
+
                                 <div class="col-lg-4 col-md-6 d-flex justify-content-center">
                                     <button class="btn port-btn" id="jsQuiz">
-                                        <img src="./assets/images/imgQuiz.png" class="image" />
-                                        <div class="overlay">JS Quiz</div>
+                                        <img src="images/planner.png" class="image" />
+                                        <div class="overlay">Planner</div>
                                     </button>
                                 </div>
-        
+
                                 <div class="col-lg-4 col-md-6 d-flex justify-content-center">
                                     <button class="btn port-btn" id="weathDash">
-                                        <img src="./assets/images/imgWeather.png" class="image" />
+                                        <img src="images/weather.png" class="image" />
                                         <div class="overlay">Weather Dashboard</div>
                                     </button>
                                 </div>
                                 <div class="col-lg-4 col-md-6 d-flex justify-content-center">
                                     <button class="btn port-btn" id="pokeSim">
-                                        <img src="./assets/images/imgBattleSim.png" class="image" />
-                                        <div class="overlay">Pokemon Sim</div>
+                                        <img src="images/Project1.png" class="image" />
+                                        <div class="overlay">Music Player-API</div>
                                     </button>
                                 </div>
-                                <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+                                <!-- <div class="col-lg-4 col-md-6 d-flex justify-content-center">
                                     <button class="btn port-btn" id="directory">
                                         <img src="./assets/images/imgDirectory.png" class="image" />
                                         <div class="overlay">ReactJS Directory</div>
                                     </button>
+                                </div> -->
+                            </div>
+                        </main>
+                    </div>
+                </div>
+            <!-- </div> -->
+
+            <!-- <div class="container main d-none" id="contactDiv"> -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <main class="wrapper">
+                            <h2>Contact Me</h2>
+                            <hr />
+                            <p class="text-center">Let's get in touch!</p>
+                            <div class="row">
+                                <div class="col-md-4 text-center mb-2">
+                                    <h3>Email</h3>
+                                    <a href="mailto:leduykhoa1@gmail.com" target="_top">leeroyphili@gmail.com</a>
+                                </div>
+                                <div class="col-md-4 text-center mb-2">
+                                    <h3>LinkedIn</h3>
+                                    <a href="https://www.linkedin.com/in/alex-khoa-le-72800681/" target="_blank">Leeroy Phili </a>
+                                </div>
+                                <div class="col-md-4 text-center mb-2">
+                                    <h3>GitHub</h3>
+                                    <a href="https://github.com/DreissenZulu" target="_blank">LeeroyP</a>
                                 </div>
                             </div>
                         </main>
                     </div>
                 </div>
-            </div>
+
+            <!-- </div> -->
         
-          </div>
-    
 
-
-
-
-
-
-
-      </div>
+     <script src="index.js"></script>
+ 
 </body>
+
 </html>
