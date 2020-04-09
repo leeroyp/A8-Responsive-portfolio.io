@@ -33,8 +33,9 @@ h2{
     background-color: burlywood;
 }
 #profileImg{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 img{
     width: 100px;
