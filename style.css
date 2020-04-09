@@ -1,29 +1,111 @@
-.home {
-    background-image: url(https://images.unsplash.com/photo-1568438350390-886953faad1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+body{
+    margin: 0px;
+    padding: 0px;
 }
 
-.wrapper {
+#box1{
+
+    height: 100vh;
+    width: 100%;
     text-align: center;
+    font-size: 60px;
+    line-height: 100vh;
+   
+}
+h2{
+    color: rgb(10, 9, 4);
+}
+#box2,#box3,#box4{
+    height: 100vh;
+    width: 100%;  
+}
+#box1{
+    background-color: black;
 }
 
-#button {
+#box2{
+    background-color: whitesmoke;
+}
+#box3{
+    background-color: blueviolet;
+}
+#box4{
+    background-color: burlywood;
+}
+#profileImg{
+    width: 250px;
+    height: 250px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+/* button {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 3px;
+ } */
+ 
+ #overlay, #overlay2 {
+    position: fixed;
+    height: 100%; 
+    width: 100%;
+    top: 0;
+    right: 0;  
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+ }
+ 
+ #popup, #popup2 {
+    max-width: 700px;
+    width: 80%;
+    max-height: 600px;
+    height: 80%; 
+    padding: 80px;
+    position: relative;
+    background: #fff;
+    margin: 20px auto;
+ }
+ 
+ 
+ #close, #close2 {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    cursor: pointer;
+    color: #000;
+ }
+
+
+
+.cont:hover .images {
+    opacity: 0.3;
+  }
+  
+  .cont:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
     position: absolute;
     top: 50%;
-
-    margin:auto;
-    display:block;
-    align-items: center;
-}
-
-h2{
-    font-family: 'Caveat', cursive;
-    color: bisque;
-}
-
-.hide {
-    display: none;
-}
-.image {
-    width: 400px;
-    height: 400px;
-}
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  

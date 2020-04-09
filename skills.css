@@ -1,0 +1,85 @@
+
+#section1 {
+  height: 650px;
+background-image: url('https://images.pexels.com/photos/776656/pexels-photo-776656.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=450&w=1060');}
+
+#section2 {
+
+  width: 1050px;
+  height: 650px;
+  background-color: whitesmoke
+}
+
+#section3 {
+  width: 1050px;
+  height: 650px;
+  background-color: whitesmoke;
+}
+
+#section4 {
+  width: 1050px;
+  height: 650px;
+  background-color:whitesmoke;
+}
+
+.image{
+  width: 90px;
+height: 90px;
+}
+.wrapper {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+  margin:0 auto;
+  display: block;
+}
+/* button {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 3px;
+} */
+
+#overlay,#overlay2, #overlay3, #overlay4, #overlay5{
+  position: fixed;
+  height: 100%; 
+  width: 100%;
+  top: 0;
+  right: 0;  
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  display: none;
+}
+
+#popup {
+  max-width: 600px;
+  width: 80%;
+  max-height: 300px;
+  height: 80%; 
+  padding: 20px;
+  position: relative;
+  background: #fff;
+  margin: 20px auto;
+}
+
+#close, #close2, #close3, #close4, #close5 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #000;
+}
+
+.images{
+  width: 250px;
+  height: 250px;
+}
+
+h1{
+  font-family: 'Indie Flower', cursive;
+}
