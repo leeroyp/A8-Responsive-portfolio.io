@@ -59,9 +59,18 @@
 
         </nav>
 
+<div class="cotinaner"></div>
 
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">  
         <h1>Welcome to Leeroy Phili's Portfolio page </h1>
         <h1>I'm a junior full stacks Web Developer </h1>
+    </div>
+    <div class="col-sm-2"></div>
+        </div>
+
+    
         <hr>
         <div class="wrapper">
             <a href="#section2"><button type="button" class="btn btn-outline-success" id="button">Press Here For
@@ -72,44 +81,49 @@
     </div>
 
     <div class="main" id="section2">
-        <div class="container main" id="profileDiv">
+        <div class="container" id="profileDiv">
             <h2>About Me</h2>
             <hr>
 
+            <div id="circle-shape-example">
+                
+                        <img class="curve" id="profileImg" src="images/Leecopy.png"  alt="A photo of me" width="300px" ><h1>Bio</h1>
+                   
+                        <p>
+                            Full Stack Web Developer experienced in 3d design, with a background in Mechanical at
+                            George Brown College and Cape Breton University and a Full Stack Development certificate at the
+                            University of Toronto.
+                            Passionate about tackling programming challenges with skills in front-end development languages
+                            such as HTML and Javascript and responsive app design. Known for writing clean solutions to
+                            coding problems and good collaboration with team members. For more about my work please click
+                            <button type="button" class="btn btn-secondary btn-sm">HERE</button> for my online resume.
+                        </p>
+            </div>
+            <p></p>
+
             <div class="container">
                 <div class="row">
-                    <div class="col-sm">
-                        <img class="image" id="profileImg" src="images/Leecopy.png" alt="A photo of me" width="300px">
-                    </div>
+                  <div class="col-sm">
+                    One of three columns
+                  </div>
+                  <div class="col-sm">
+                    One of three columns
+                  </div>
+                  <div class="col-sm">
+                    One of three columns
+                  </div>
                 </div>
-            </div>
-
-
-            <div class="container">
-                <p>
-                    Full Stack Web Developer experienced in 3d design, with a background in Mechanical at
-                    George Brown College and Cape Breton University and a Full Stack Development certificate at the
-                    University of Toronto.
-                    Passionate about tackling programming challenges with skills in front-end development languages
-                    such as HTML and Javascript and responsive app design. Known for writing clean solutions to
-                    coding problems and good collaboration with team members. For more about my work please click
-                    <button type="button" class="btn btn-secondary btn-sm">HERE</button> for my online resume.
-                </p>
-            </div>
-
+              </div>
 
 
             <div class="container" id="skills">
                 <h2>Skills</h2>
 
                 <div class="row">
-                    <div class="col-sm-2">
-                       
-                    </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm"></div>
+                    <div class="col-sm-10">
                         <div>
-
-                            <img src="images/css.png" class="image" />
+                            <img src="images/css.png" class="image"  />
                             <img src="images/html.png" class="image" />
                             <img src="images/js.png" class="image" />
                             <img src="images/jquery.jpeg" class="image" />
@@ -118,102 +132,131 @@
                             <img src="images/github.png" class="image" />
                             <img src="images/api.png" class="image" />
                             <img src="images/express.png" class="image" />
+                            <img src="images/moment.png" class="image" />
                         </div>
                     </div>
-                    <div class="col-sm-2">
-                        
-                    </div>
+                    <div class="col-sm"></div>
+                </div>
+            </div>
+        </div>
 
 
+    </div>
+    <div class="main" id="section3">
+        <div class="container" id="Portfolio">
 
+        <!-- <div class="container-xl" id="portfolio"> -->
+
+            <h2>Portfolio</h2>
+            <hr>
+            <img src="images/password .jpg" class="images" />
+            <button id="trigger"> Password Generator</button>
+            <div id="overlay">
+                <div id="popup">
+                    <div id="close">X</div>
+                    <h2>Password Generato</h2>
+                    <p>in this assignment, we created a password generator. This app will run in the browser and feature
+                        dynamically updated HTML and CSS powered by my JavaScript code Below will be some of the
+                        criteria
+                        met by the generator:
+                    </p>
+                    <button type="button" class="btn btn-outline-success">View Webpage</button>
+                    <button type="button" class="btn btn-outline-warning">View Code </button>
 
                 </div>
-
-
-
             </div>
-        </div>
 
-        <a href="#section1">Go HOME </a>
-    </div>
-
-
-
-    <div class="main" id="section3">
-        <h1>Portfolio</h1>
-
-        <button id="trigger">
-            <img src="images/password .jpg" class="images" />
-        </button>
-        <div id="overlay">
-            <div id="popup">
-                <div id="close">X</div>
-                <h2>Password Generato</h2>
-                <p>in this assignment, we created a password generator. This app will run in the browser and feature dynamically updated HTML and CSS powered by my JavaScript code Below will be some of the criteria met by the generator:
-                </p>
-                <button type="button" class="btn btn-outline-success">View Webpage</button>
-                <button type="button" class="btn btn-outline-warning">View Code </button>
-
-            </div>
-        </div>
-
-
-        <button id="trigger2">
             <img src="images/quiz.jpeg" class="images" />
-        </button>
-        <div id="overlay2">
-            <div id="popup">
-                <div id="close2">X</div>
-                <h2>Code Quiz</h2>
-                <p>In this project, we apply HTML, CSS, JavaScript, local storages to create a random quiz generetor for the user. The quiz will be time based, with each time the user gets an answer wrong a set time we be deducted. When the quiz is complete the user is given a score and asked to input their initials. The score and the initials are both saved in the local storage and displayed in the leadboard for other users to see. </p>
-                <a href="https://leeroyp.github.io/leeroyAssignment4.github.io/" target="_blank"> <button type="button" class="btn btn-outline-success">View Webpage</button></a>
-                <a href="https://github.com/leeroyp/leeroyAssignment4.github.io" target="_blank"><button type="button" class="btn btn-outline-warning">View Code </button></a>
-            </div>
-        </div>
 
-        <button id="trigger3">
+            <button id="trigger2">Learn More
+            </button>
+            <div id="overlay2">
+                <div id="popup">
+                    <div id="close2">X</div>
+                    <h2>Code Quiz</h2>
+                    <p>In this project, we apply HTML, CSS, JavaScript, local storages to create a random quiz generetor
+                        for
+                        the user. The quiz will be time based, with each time the user gets an answer wrong a set time
+                        we be
+                        deducted. When the quiz is complete the user is given a score and asked to input their initials.
+                        The
+                        score and the initials are both saved in the local storage and displayed in the leadboard for
+                        other
+                        users to see. </p>
+                    <a href="https://leeroyp.github.io/leeroyAssignment4.github.io/" target="_blank"> <button
+                            type="button" class="btn btn-outline-success">View Webpage</button></a>
+                    <a href="https://github.com/leeroyp/leeroyAssignment4.github.io" target="_blank"><button
+                            type="button" class="btn btn-outline-warning">View Code </button></a>
+                </div>
+            </div>
             <img src="images/schedule.png" class="images" />
-        </button>
-        <div id="overlay3">
-            <div id="popup">
-                <div id="close3">X</div>
-                <h2>Daily Planner </h2>
-                <p>Your own personal daily scheduler. In this assignment we combined the use of CSS, JavaScript, loval storages and a little bit of HTML. This scheduler will allow the user to add/delete events they want on thier schedule. The schedule is based on a 9am -5pm timeline. Each hour that has passed is color codded differently, this is also different for the current time and also time that hasn't passed yet. </p>
-               <a href="https://leeroyp.github.io/SchedulerA5.github.io/" target="_blank"> <button type="button" class="btn btn-outline-success">View Webpage</button></a>
-                <a href="https://github.com/leeroyp/SchedulerA5.github.io" target="_blank"><button type="button" class="btn btn-outline-warning">View Code </button></a>
+            <button id="trigger3">Daile scheduler</button>
+            <div id="overlay3">
+                <div id="popup">
+                    <div id="close3">X</div>
+                    <h2>Daily Planner </h2>
+                    <p>Your own personal daily scheduler. In this assignment we combined the use of CSS, JavaScript,
+                        loval
+                        storages and a little bit of HTML. This scheduler will allow the user to add/delete events they
+                        want
+                        on thier schedule. The schedule is based on a 9am -5pm timeline. Each hour that has passed is
+                        color
+                        codded differently, this is also different for the current time and also time that hasn't passed
+                        yet. </p>
+                    <a href="https://leeroyp.github.io/SchedulerA5.github.io/" target="_blank"> <button type="button"
+                            class="btn btn-outline-success">View Webpage</button></a>
+                    <a href="https://github.com/leeroyp/SchedulerA5.github.io" target="_blank"><button type="button"
+                            class="btn btn-outline-warning">View Code </button></a>
+                </div>
             </div>
-        </div>
 
-        <button id="trigger4">
             <img src="images/weatherstack-forecast.gif" class="images" />
-        </button>
-        <div id="overlay4">
-            <div id="popup">
-                <div id="close4">X</div>
-                <h2>Weather Dashboard API</h2>
-                <p>By far my favourite assignemtn so far. In this assingment I was challenged to use everthing i have learned. We applied the use of HTML, CSS , jQuery, Moment Js , local storages, AJAX, APIs. I was able to connect and make request to the weather network API. from there I was able to let the user search diffrent cities and be able to get a response which was rendered to the page. Each time a user searches a city, the search input was save as a buttton which would be used to search the same city again</p>
-               <a href=" https://leeroyp.github.io/Assignment6LP.github.io/" target="_blank"> <button type="button" class="btn btn-outline-success">View Webpage</button></a>
-               <a href="https://github.com/leeroyp/Assignment6LP.github.io" target="_blank"> <button type="button" class="btn btn-outline-warning">View Code </button></a>
+            <button id="trigger4">Weather Dashboard</button>
+            <div id="overlay4">
+                <div id="popup">
+                    <div id="close4">X</div>
+                    <h2>Weather Dashboard API</h2>
+                    <p>By far my favourite assignemtn so far. In this assingment I was challenged to use everthing i
+                        have
+                        learned. We applied the use of HTML, CSS , jQuery, Moment Js , local storages, AJAX, APIs. I was
+                        able to connect and make request to the weather network API. from there I was able to let the
+                        user
+                        search diffrent cities and be able to get a response which was rendered to the page. Each time a
+                        user searches a city, the search input was save as a buttton which would be used to search the
+                        same
+                        city again</p>
+                    <a href=" https://leeroyp.github.io/Assignment6LP.github.io/" target="_blank"> <button type="button"
+                            class="btn btn-outline-success">View Webpage</button></a>
+                    <a href="https://github.com/leeroyp/Assignment6LP.github.io" target="_blank"> <button type="button"
+                            class="btn btn-outline-warning">View Code </button></a>
+                </div>
             </div>
-        </div>
 
-        <button id="trigger5">
             <img src="images/spotify.png" class="images" />
-        </button>
-        <div id="overlay5">
-            <div id="popup">
-                <div id="close5">X</div>
-                <h2>Spotify Api Project</h2>
-                <p>THis was by far the most challenging one.  In this project we created our own local serve and linked it to our JavaScript. Once this was all done, we were able to connect to the spotify API and make request through our server and we were successful able to get a response back and render the content in our page. Some of the requests made included artist picture, preview of each song and generated playlist that specific artis/ genre.</p>
-                <a href="https://github.com/leeroyp/OsasTracks.github.io" target="_blank"><button type="button" class="btn btn-outline-warning">View Code </button></a>
+            <button id="trigger5">Spotify Web API   </button>
+            <div id="overlay5">
+                <div id="popup">
+                    <div id="close5">X</div>
+                    <h2>Spotify Api Project</h2>
+                    <p>THis was by far the most challenging one. In this project we created our own local serve and
+                        linked
+                        it to our JavaScript. Once this was all done, we were able to connect to the spotify API and
+                        make
+                        request through our server and we were successful able to get a response back and render the
+                        content
+                        in our page. Some of the requests made included artist picture, preview of each song and
+                        generated
+                        playlist that specific artis/ genre.</p>
+                    <a href="https://github.com/leeroyp/OsasTracks.github.io" target="_blank"><button type="button"
+                            class="btn btn-outline-warning">View Code </button></a>
+                </div>
             </div>
-        </div>
 
-        <a href="#section1">TOP</a>
+        </div>
     </div>
 
     <div class="main" id="section4">
-
+<div class="container" id="contacts">
         <h2>Contacts</h2>
         <div class="container">
             <form>
@@ -232,6 +275,7 @@
             </form>
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
+    </div>
 
 
 
