@@ -170,11 +170,11 @@ background-color: rgb(248, 220, 220);
 }
 
 .carousel-inner > .item > img {
-  width:240px;
+  width:640px;
   height:560px;
 }
 
 p{
   font-family: 'Indie Flower', cursive;
-  size: 90px;
+  text-size-adjust: 200px;
 }
