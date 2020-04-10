@@ -104,7 +104,7 @@ border: palegoldenrod;
   height: 80%; 
   padding: 20px;
   position: relative;
-  background: rgb(243, 190, 190);
+  background: rgba(243, 190, 190, 0.466);
   margin: 20px auto;
 }
 
@@ -173,8 +173,37 @@ background-color: rgb(248, 220, 220);
   width:640px;
   height:560px;
 }
-
 p{
-  font-family: 'Indie Flower', cursive;
-  text-size-adjust: 200px;
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 100%;
 }
+
+.top{
+  margin-left: 50%;
+margin-bottom: 50%;
+  /* margin-right: auto; */
+}
+
+.faBox {
+  height: 48px;
+  width: 40px;
+  padding: 0;
+  color: #777777;
+}
+
+.faBox:focus {
+  box-shadow: none;
+}
+
+.faFoot {
+  height: 48px;
+  width: 40px;
+  padding: 0;
+  color: #dddddd;
+}
+
+.faFoot:focus, .faFoot:hover {
+  box-shadow: none;
+  color: #ffffff;
+}
+
