@@ -3,7 +3,7 @@ linked:
 
 
 Assignemtn 8 - Responsive Portfolio 
-![](Images/pageSnip.png)
+![](images/pageSnip.png)
 
 This was my very first detailed portfolio.  In this assingment i tried to showcase as many skills as i have acquired to display in my portfolio. 
 
@@ -21,7 +21,7 @@ Finally visitors can simple connect to me via linkndin , github , email or throu
 
 Code Snip
 
-![](Images/code.png)
-![](Images/code2.png)
+![](images/code.png)
+![](images/code2.png)
 
 
