@@ -19,7 +19,7 @@ Then comes the portfolio page, here we diplayed some of my favourite assignments
 
 Finally visitors can simple connect to me via linkndin , github , email or through phone with each info provided on the page with links to github and linkndin
 
-Code Snip
+Code Snipet
 
 ![](images/code.png)
 ![](images/code2.png)
